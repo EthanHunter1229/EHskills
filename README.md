@@ -7,6 +7,16 @@
 [![Skills](https://img.shields.io/badge/skills-1-blue)](https://github.com/EthanHunter1229/EHskills)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+## ⚡ 快速安装
+
+```bash
+git clone https://github.com/EthanHunter1229/EHskills.git
+cd EHskills/formal-report-formatting
+pip install -r requirements.txt
+```
+
+**导入 KARMA**: 查看 [`QUICKSTART.md`](./QUICKSTART.md) | [`INSTALL.md`](./INSTALL.md)
+
 ## 📚 技能列表
 
 ### 🗂️ 文档处理
