@@ -1,33 +1,87 @@
 # EHskills
 
-Ethan Hunter 的 Karma Skills 收藏库
+> Ethan Hunter 的 Karma Skills 精选收藏库
 
-这个仓库收集了我在使用 Karma AI 过程中创建和优化的各种实用技能(skills)。
+这个仓库收集了我在使用 **Karma AI** 过程中创建和优化的各种实用技能(skills)。每个 skill 都经过实战检验，开箱即用。
 
-## 技能列表
+[![Skills](https://img.shields.io/badge/skills-1-blue)](https://github.com/EthanHunter1229/EHskills)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-### formal-report-formatting
+## 📚 技能列表
+
+### 🗂️ 文档处理
+
+#### [formal-report-formatting](./formal-report-formatting)
 正式报告格式化工具 - 自动格式化 Word 文档，应用专业报告的排版规范。
 
-**功能特性:**
-- 标题层级自动格式化
-- 段落间距统一
-- 页眉页脚规范化
-- 目录自动生成
-- 支持自定义格式规则
+**特性:** 标题层级格式化 | 段落间距统一 | 页眉页脚规范 | 目录生成 | 自定义规则
 
-## 使用方法
+**适用场景:** 企业报告、技术文档、项目方案
+
+---
+
+## 🚀 快速开始
+
+### 1. 在 Karma 中使用
+
+```bash
+# 克隆仓库
+git clone https://github.com/EthanHunter1229/EHskills.git
+
+# 进入 skill 目录查看使用说明
+cd EHskills/formal-report-formatting
+cat SKILL.md
+```
+
+### 2. 目录结构
 
 每个技能目录包含：
-- `SKILL.md` - 技能描述和触发词
-- `scripts/` - 执行脚本
-- `references/` - 参考文档
-- `assets/` - 配置和资源文件
+```
+skill-name/
+├── SKILL.md              # 技能描述和触发词
+├── scripts/              # 执行脚本
+│   └── *.py
+├── references/           # 参考文档
+│   └── *.md
+└── assets/              # 配置和资源
+    └── *.json
+```
 
-## 贡献
+### 3. 依赖安装
 
-欢迎提交 PR 分享你的优质 skills！
+大多数 skills 需要 Python 3.8+，具体依赖查看各 skill 的 `SKILL.md`。
 
-## 许可
+## 🎯 分类索引
 
-MIT License
+- **文档处理** (1) - Word/PDF 格式化、转换、生成
+- **数据分析** (即将推出) - 表格处理、数据可视化
+- **自动化工具** (即将推出) - 批量操作、定时任务
+- **AI 增强** (即将推出) - 智能分析、内容生成
+
+## 🤝 贡献
+
+欢迎提交你的优质 skills！
+
+1. Fork 本仓库
+2. 创建新的 skill 目录
+3. 按照 [贡献指南](CONTRIBUTING.md) 组织文件
+4. 提交 Pull Request
+
+## 📖 相关资源
+
+- [Karma AI 官网](https://karma.eos3.ai)
+- [EOS3 平台](https://eos3.ai)
+- [Skill 开发文档](https://docs.karma.eos3.ai)
+
+## 📝 许可
+
+MIT License - 详见 [LICENSE](LICENSE) 文件
+
+## 💬 联系方式
+
+- GitHub: [@EthanHunter1229](https://github.com/EthanHunter1229)
+- Email: ethanhunter@eos3.ai
+
+---
+
+⭐ 如果觉得有用，欢迎 Star！
