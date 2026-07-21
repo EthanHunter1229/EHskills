@@ -44,7 +44,7 @@
       "color_hex": "000000"
     },
     "h4": {
-      "pattern": "^\\d+[\\.、]",
+      "pattern": "^\\d{1,2}[\\.、]\\s*[\\u4e00-\\u9fa5]",
       "size_pt": 12,
       "font_east_asian": "宋体",
       "font_western": "Times New Roman",

@@ -275,7 +275,7 @@ def set_repeat_header(row):
     trPr.append(tblHeader)
 
 
-NUMBER_RE = re.compile(r"^[\d\.,%\-\+\(\)\s￥$]+$")
+NUMBER_RE = re.compile(r"^[\d\.,，%％\-\+\(\)（）\s￥¥$]+$")
 
 
 def style_table(table, rules):
