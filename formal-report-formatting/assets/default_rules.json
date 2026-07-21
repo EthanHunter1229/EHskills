@@ -1,4 +1,10 @@
 {
+  "formatting_principles": {
+    "no_emoji": true,
+    "max_consecutive_blank_lines": 1,
+    "professional_style": true,
+    "description": "专业简洁风格：禁止emoji、控制空行、纯文字排版"
+  },
   "page": {
     "page_width_cm": 21.0,
     "page_height_cm": 29.7,
