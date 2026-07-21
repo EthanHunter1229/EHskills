@@ -1,0 +1,86 @@
+{
+  "page": {
+    "page_width_cm": 21.0,
+    "page_height_cm": 29.7,
+    "margin_top_cm": 2.5,
+    "margin_bottom_cm": 2.5,
+    "margin_left_cm": 2.8,
+    "margin_right_cm": 2.2
+  },
+  "heading_levels": {
+    "cover": {
+      "size_pt": 22,
+      "font_east_asian": "黑体",
+      "font_western": "Times New Roman",
+      "bold": true,
+      "alignment": "center",
+      "color_hex": "000000"
+    },
+    "h1": {
+      "pattern": "^第[一二三四五六七八九十百零]+[节章]",
+      "size_pt": 16,
+      "font_east_asian": "黑体",
+      "font_western": "Times New Roman",
+      "bold": true,
+      "alignment": "center",
+      "color_hex": "000000"
+    },
+    "h2": {
+      "pattern": "^[一二三四五六七八九十百零]+、",
+      "size_pt": 15,
+      "font_east_asian": "黑体",
+      "font_western": "Times New Roman",
+      "bold": true,
+      "alignment": "left",
+      "color_hex": "000000"
+    },
+    "h3": {
+      "pattern": "^[（(][一二三四五六七八九十百零]+[)）]",
+      "size_pt": 14,
+      "font_east_asian": "楷体_GB2312",
+      "font_western": "Times New Roman",
+      "bold": true,
+      "alignment": "left",
+      "color_hex": "000000"
+    },
+    "h4": {
+      "pattern": "^\\d+[\\.、]",
+      "size_pt": 12,
+      "font_east_asian": "宋体",
+      "font_western": "Times New Roman",
+      "bold": true,
+      "alignment": "left",
+      "color_hex": "000000"
+    }
+  },
+  "body": {
+    "size_pt": 12,
+    "font_east_asian": "宋体",
+    "font_western": "Times New Roman",
+    "bold": false,
+    "alignment": "justify",
+    "first_line_indent_chars": 2,
+    "line_spacing_pt": 20,
+    "space_before_pt": 0,
+    "space_after_pt": 0,
+    "color_hex": "000000"
+  },
+  "table": {
+    "size_pt": 10.5,
+    "font_east_asian": "宋体",
+    "font_western": "Times New Roman",
+    "number_alignment": "right",
+    "text_alignment": "left",
+    "three_line_border": true,
+    "repeat_header_row": true,
+    "color_hex": "000000"
+  },
+  "footer": {
+    "enabled": true,
+    "style": "page_of_total",
+    "alignment": "center",
+    "font_east_asian": "宋体",
+    "size_pt": 9,
+    "color_hex": "000000"
+  }
+}

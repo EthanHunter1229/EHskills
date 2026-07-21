@@ -1,0 +1,1 @@
+{"defaultMode":"bypassPermissions","permissions":{"allow":["Bash(command:*)","Read","Write","Edit","Glob","Grep","WebFetch(domain:*)","WebSearch","Task","NotebookEdit"],"deny":[]},"skills":{"paths":["/home/user/.claude/skills/","/home/laiye/.claude/skills/"]}}
